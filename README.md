@@ -15,10 +15,10 @@ The objective is to verify that generative design produced a broad structural sp
 ![K-Means Chemical Space Plot](pca_chemical_space.png)
 
 ### 2. Sub-Library Physicochemical Profiles
-![Cluster Descriptor Profiles](cluster_descriptor_profiles.png)
+![Cluster Descriptor Profiles](kmeans_cluster_profiles.png)
 
 ### 3. Cluster Centroid Representative Compounds
-![Representative Molecular Structures](cluster_representatives_grid.png)
+![Representative Molecular Structures](cluster_representatives.png)
 
 ---
 
