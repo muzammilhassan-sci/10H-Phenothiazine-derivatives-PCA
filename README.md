@@ -7,6 +7,21 @@ This repository contains the Python scripts and notebooks used to encode molecul
 
 The objective is to verify that generative design produced a broad structural space rather than redundant scaffold variants prior to downstream computational screening.
 
+---
+
+## Visual Workflow & Key Results
+
+### 1. K-Means Chemical Space Mapping (K=5)
+![K-Means Chemical Space Plot](pca_chemical_space.png)
+
+### 2. Sub-Library Physicochemical Profiles
+![Cluster Descriptor Profiles](cluster_descriptor_profiles.png)
+
+### 3. Cluster Centroid Representative Compounds
+![Representative Molecular Structures](cluster_representatives_grid.png)
+
+---
+
 ## Key Workflow Steps
 1. **Fingerprint Generation:** 1024-bit Morgan Fingerprints (`radius=2`) computed via `RDKit`.
 2. **Dimensionality Reduction:** 2D Principal Component Analysis (PCA).
